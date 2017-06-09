@@ -1,0 +1,50 @@
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+#box1{
+    width: 150px;
+    float: right;
+    height: 150px;
+   border : solid thin #EB363F;
+   border-right: none;
+   box-sizing: border-box;
+   }
+#box2{
+    width: 100%;
+    height: 150px;
+    border : solid thin #EB363F;
+    border-left: none;
+}
+.txt{
+    color : white;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 55px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+body,html{
+    background-color : black !important;
+}
+#arrow{
+    width: 0px;
+    height: 0px;
+    border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent; 
+  top : 36%;
+  border-left:15px solid #EB363F;
+  position: absolute;
+  right: -15px;
+  z-index: 3;
+  display: none;
+}
+.nopadding:hover #box1{
+     background-color : #EB363F;
+     border : none;
+}
+.nopadding:hover #arrow{
+    display: block;
+    cursor: pointer;
+    
+}

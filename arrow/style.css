@@ -1,0 +1,40 @@
+
+.noti{
+    position: absolute;
+    right: -17px;
+    top : -15px;
+    padding : 11px 18px;
+    background-color: #EB363F;
+    border-radius: 20px;
+    color : white;
+}
+
+body,html{
+    background-color: black;
+}
+.triangle{
+  position: absolute;
+  top : -20px;
+  left: 36%;
+display: none;
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid gray;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border : solid thin gray;
+}
+.item:hover  .triangle{
+   display: inline-block;
+   
+}
+.item{
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+}
