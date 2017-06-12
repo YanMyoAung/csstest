@@ -1,0 +1,13 @@
+.item{
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    width: 200px;
+}
+.img{
+   width: 100%;
+   transition: all 0.3s;
+}
+.item:hover .img{
+    transform: scale(1.2);
+}
